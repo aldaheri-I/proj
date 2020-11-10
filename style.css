@@ -1,3 +1,6 @@
-.navbarItem {
+header nav ul li  {
 	  		float: left;
+		}
+li a:hover {
+		  	background-color: #cccccc;
 		}
