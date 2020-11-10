@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<title>H.I.S Restaurant</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--navbar templete from w3school-->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+<style>
+
+</style>
+<body>
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active"><i class="fas fa-home"></i> Home</a>
+  <a href="about.html"><i class="fas fa-info"></i> About</a>
+  <a href="signIn.html" id="signIn">Sign in</a>
+  <a href="singUp.html" id="signUp">Sign up</a>
+  <a href="cart.html" id="cart"><i class="fas fa-shopping-cart"></i> Cart</a>
+
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+	
+	<form class="container" action="index.html">
+		<fieldset >
+			<legend>
+			Sign in
+			</legend>
+			<h1>Sign in</h1>
+			<p >Enter your information to register.</p>
+			<hr>
+
+			<label for="username"><b>Username:</b></label>
+			<br><br>
+			<input type="text" placeholder="Enter Username" name="username" id="username" required>
+			<br> <br>
+			<label for="password"><b>Password:</b></label>
+			<br> <br>
+			<input type="password" placeholder="Enter Password" name="paasword" id="paasword" required>
+			<br> <br>
+			<hr>
+
+			<button type="submit" class="registerbtn">Sign In</button>
+
+			<p>You don't have an account? <a href="singUp.html">Sign up Now!</a>.</p>
+		</fieldset>
+	</form>
+<footer>
+<br>
+
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
