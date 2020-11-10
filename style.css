@@ -4,3 +4,10 @@ header nav ul li  {
 li a:hover {
 		  	background-color: #cccccc;
 		}
+li a {
+	  		display: block;
+ 	 		color: black;
+  			text-align: center;
+	  		padding: 16px;
+	  		text-decoration: none;
+		}
