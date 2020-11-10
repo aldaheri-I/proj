@@ -248,3 +248,11 @@ p:last-child {
 }
 /* about us css ends here */
 
+/* cart */
+.cart{
+  margin: 100px auto auto auto;
+  width: 800px;
+  text-align: right;
+}
+
+/* end of cart */
