@@ -154,3 +154,17 @@ text-align: center;
 /*
 here !!!
 */
+
+/*Sign up/ Sign In*/
+
+.container{
+	width: 800px;
+	margin: 50px auto;
+	border: solid 1px black;
+	padding: 50px;
+	background-color: white;
+}
+legend, label, fieldset p,  fieldset h1{
+	color: gray;
+}
+/*Sign up/ Sign In*/
